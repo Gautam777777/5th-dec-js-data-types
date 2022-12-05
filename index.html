@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Js Data Types</title>
+        <link href="./css/style.css" rel="stylesheet">
+        <link href="./css/style2.css" rel="stylesheet">
+        
+        <style>
+
+        </style>
+        <script src="./js/script.js"></script>
+        <script>
+            //Js object
+
+            // lets store the student2 information inside a js object
+
+            let student2 = {
+                // 1. property:value
+                name:"gautam",
+                surname:"sharma"
+
+                // 2. .....
+            };
+
+            // 2nd way to see the js code output
+
+            //object.property
+
+            window.alert("Hello "+student2.name); // + is a concatination operator
+        </script>
+    </head>
+    <body>
+        <div class="mydiv"></div>
+        <h1>Javascript Data Types</h1>
+        <ol>
+            <li>Number  1,2,3.4 etc..</li>
+            <li>String  " " / ' ' / ` ` </li>
+            <li>Object  {}</li>
+        </ol>
+        <p class="news1"></p>
+        <script src="./js/script2.js"></script>
+        <script>
+
+            // lets store the student3 information inside a js object
+
+            let student3 = {
+                // 1. property:value
+                name:"vishnu",
+                surname:"jaat",
+                mobno:9999999999
+
+                // 2. ....
+            };
+
+            // 3rd way to see the js code output
+
+            document.querySelector(".mydiv").innerHTML = "Hello"+student3.name;
+
+        </script>
+
+        <script>
+            let news1 = {
+                w1:"Exit",
+                w2:"polls",
+                w3:"2022:",
+                w4:"Gujarat",
+                w5:"voted",
+                w6:"Dec",
+                w7:"1",
+                w8:"and",
+                w9:"5,",
+                w10:"while",
+                w11:"Himachal",
+                w12:"Pradesh",
+                w13:"voted",
+                w14:"on",
+                w15:"Nov",
+                w16:"12.",
+                w17:"Counting",
+                w18:"of",
+                w19:"votes",
+                w20:"for",
+                w21:"both",
+                w22:"states -",
+                w23:"and",
+                w24:"for",
+                w25:"the",
+                w26:"Delhi",
+                w27:"civic",
+                w28:"polls,",
+                w29:"which",
+                w30:"was",
+                w31:"held",
+                w32:"Dec",
+                w33:"4 -",
+                w34:"will",
+                w35:"be",
+                w36:"on",
+                w37:"Dec",
+                w38:"8."
+
+            }
+
+            var n1 = news1.w1+" "+news1.w2+" "+news1.w3+" "+news1.w4+" "+news1.w5+" "+news1.w6+" "+news1.w7+" "+news1.w8+" "+news1.w9+" "+news1.w10+" "+news1.w11+" "+news1.w12+" "+news1.w13+" "+news1.w14+" "+news1.w15+" "+news1.w16+" "+news1.w17+" "+news1.w18+" "+news1.w19+" "+news1.w20+" "+news1.w21+" "+news1.w22+" "+news1.w23+" "+news1.w24+" "+news1.w25+" "+news1.w26+" "+news1.w27+" "+news1.w28+" "+news1.w29+" "+news1.w30+" "+news1.w31+" "+news1.w32+" "+news1.w33+" "+news1.w34+" "+news1.w35+" "+news1.w36+" "+news1.w37+" "+news1.w38
+            
+            document.querySelector("p.news1").innerHTML = n1;
+
+            // object.propertyvalue
+            console.log(n1);
+        </script>
+    </body>
+</html>
